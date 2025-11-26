@@ -1,11 +1,12 @@
 // src/components/Home.jsx
+import profilImg from "../assets/TOP.png";
 
 export default function Home() {
   return (
     <section className="home" id="home">
       <div className="home-img">
         {/* Mets une image dans public/profil.png ou change le chemin */}
-        <img src="/TOP.jpg" alt="Photo d'Emile" />
+        <img src={profilImg} alt="Photo d'Emile" />
       </div>
 
       <div className="home-content">

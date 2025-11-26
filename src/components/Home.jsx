@@ -1,5 +1,5 @@
 // src/components/Home.jsx
-import profilImg from "../assets/TOP.jpg";
+import profilImg from "//emile.jpg";
 
 export default function Home() {
   return (

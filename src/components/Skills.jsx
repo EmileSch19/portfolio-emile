@@ -12,6 +12,7 @@ const skills = [
   { name: 'GitHub', icon: 'fa-brands fa-github' },
   { name: 'Trello', icon: 'fa-brands fa-trello' },
   { name: 'Scrum', icon: 'fa-solid fa-people-group' },
+  { name: 'MangoDB', icon: 'fa-solid fa-mangodb' },
 ];
 
 export default function Skills() {

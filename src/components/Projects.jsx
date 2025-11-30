@@ -7,16 +7,16 @@ const projects = [
     link: 'https://emilesch19.github.io/portfolio-emile/',
   },
    {
-    title: 'Projet React',
+    title: 'Travel Ventures',
     tech: 'React · CSS',
-    desc: 'Un site portfolio moderne pour présenter mes compétences et projets.',
-    link: '#',
+    desc: "Site React mettant en avant des paysages du monde.",
+    link: 'https://emilesch19.github.io/Travel_Ventures/',
   },
    {
     title: 'Hope Connect',
     tech: 'HTML · CSS',
     desc: 'Page de présentation responsive pour un faux produit SaaS.',
-    link: '#',
+    link: 'https://emilesch19.github.io/sans_habris/',
   },
   {
     title: 'Todo App',
@@ -24,12 +24,12 @@ const projects = [
     desc: 'Application de gestion de tâches avec sauvegarde dans le navigateur.',
     link: 'https://emilesch19.github.io/ToDoLisit/',
   },
-  {
+  /*{
     title: 'Sans-habris',
     tech: 'HTML · CSS',
     desc: 'Page de présentation responsive pour un faux produit SaaS.',
     link: 'https://emilesch19.github.io/sans_habris/',
-  },
+  },*/
 ];
 
 export default function Projects() {

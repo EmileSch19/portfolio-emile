@@ -1,5 +1,5 @@
 // src/components/Home.jsx
-import profilImg from "//emile.jpg";
+import profilImg from "../assets/emile.jpg";
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
 
       <div className="home-content">
         <h1>
-          Salut, c&apos;est <span>Emile</span>
+          Salut, c&apos;est <span>Emile</span> DUFOULON
         </h1>
 
         <h3 className="typing-text">

@@ -24,12 +24,24 @@ const projects = [
     desc: 'Application de gestion de tâches avec sauvegarde dans le navigateur.',
     link: 'https://emilesch19.github.io/ToDoLisit/',
   },
-  /*{
-    title: 'Sans-habris',
+ {
+  title: 'Gestion des employés',
+  tech: 'Django · Python · SQLite',
+  desc: 'Application de gestion des employés (CRUD : ajout, modification, édition, suppression) avec interface moderne.',
+  link: 'https://github.com/EmileSch19/django-gestion-employes',
+},
+{
+    title: 'Discover',
     tech: 'HTML · CSS',
-    desc: 'Page de présentation responsive pour un faux produit SaaS.',
-    link: 'https://emilesch19.github.io/sans_habris/',
-  },*/
+    desc: "Site présentant une interface de destination pour les vacances.",
+    link: 'https://discover-jet.vercel.app/',
+  }
+/*{
+  title:
+  tech:
+  desc:
+  link:
+}*/
 ];
 
 export default function Projects() {

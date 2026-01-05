@@ -1,5 +1,5 @@
 // src/components/Home.jsx
-import profilImg from "../assets/emile.jpg";
+import profilImg from "../assets/Profil_Linkedin.png";
 
 export default function Home() {
   return (

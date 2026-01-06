@@ -1,10 +1,16 @@
 // src/components/Projects.jsx
 const projects = [
   {
-    title: 'Portfolio Personnel',
-    tech: 'React · CSS',
-    desc: 'Un site portfolio moderne pour présenter mes compétences et projets.',
-    link: 'https://emilesch19.github.io/portfolio-emile/',
+    title: 'Discover',
+    tech: 'HTML · CSS',
+    desc: "Site présentant une interface de destination pour les vacances.",
+    link: 'https://discover-jet.vercel.app/',
+  },
+  {
+  title: 'Gestion des employés',
+  tech: 'Django · Python · SQLite',
+  desc: 'Application de gestion des employés (CRUD : ajout, modification, édition, suppression) avec interface moderne.',
+  link: 'https://gestion-employes.vercel.app/',
   },
    {
     title: 'Travel Ventures',
@@ -24,18 +30,8 @@ const projects = [
     desc: 'Application de gestion de tâches avec sauvegarde dans le navigateur.',
     link: 'https://emilesch19.github.io/ToDoLisit/',
   },
- {
-  title: 'Gestion des employés',
-  tech: 'Django · Python · SQLite',
-  desc: 'Application de gestion des employés (CRUD : ajout, modification, édition, suppression) avec interface moderne.',
-  link: 'https://github.com/EmileSch19/django-gestion-employes',
-},
-{
-    title: 'Discover',
-    tech: 'HTML · CSS',
-    desc: "Site présentant une interface de destination pour les vacances.",
-    link: 'https://discover-jet.vercel.app/',
-  }
+
+
 /*{
   title:
   tech:

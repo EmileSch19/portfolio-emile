@@ -264,6 +264,7 @@ span{
 /* Skills*/
 
 #skills {
+    height: 40%;
     text-align: center;
     padding-top: 5rem;
 }

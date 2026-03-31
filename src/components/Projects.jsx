@@ -35,6 +35,13 @@ const projects = [
     link: 'https://emilesch19.github.io/ToDoLisit/',
     image:'/images/ToDoList.png',
   },
+{
+  title: "Mercurial Shop",
+  tech: "React, Vite, CSS, React Router",
+  desc: "Site e-commerce développé avec React mettant en avant des produits dans une interface moderne et responsive. Le projet intègre un système de navigation dynamique avec React Router, une architecture basée sur des composants réutilisables et une attention particulière portée à l’expérience utilisateur et au design.",
+  link: "https://mercurial-v2.vercel.app/",
+  image: "/images/Mercurial.png"
+}
 
 
 /*{

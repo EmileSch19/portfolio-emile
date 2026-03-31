@@ -64,7 +64,7 @@ nav a.active{
     border-bottom: 3px solid #b74b4b;
 }
 
-@media(max-width:995px){
+/* @media(max-width:995px){
     nav{
         position: absolute;
         display: none;
@@ -95,7 +95,7 @@ nav a.active{
         border-radius: 0.5rem;
         border-bottom: 0.5rem solid #b74b4b;
     }
-}
+} */
 
 section{
     min-height: 80vh;
@@ -239,7 +239,7 @@ span{
     
 }
 
-@media (max-width: 1000px){
+/* @media (max-width: 1000px){
     .home{
         gap: 4rem;
     }
@@ -263,7 +263,7 @@ span{
         width: 70vw;
         margin-top: 4rem;
     }
-}
+} */
 /* Skills*/
 
 #skills {
@@ -643,4 +643,110 @@ span{
 }
 .social-icons a.linkedin:hover {
    background-color: #0A66C2;
+}
+
+/* ========================= */
+/* 📱 MOBILE (max 768px) */
+/* ========================= */
+
+@media (max-width: 768px){
+
+    header{
+        padding: 1rem 4%;
+    }
+
+    /* NAV MOBILE */
+    nav{
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 70%;
+        flex-direction: column;
+        background-color: #161616;
+        padding: 2rem;
+        display: none;
+        border-left: 3px solid #b74b4b;
+        border-bottom-left-radius: 2rem;
+    }
+
+    nav.active{
+        display: flex;
+    }
+
+    nav a{
+        margin: 1.5rem 0;
+        font-size: 2rem;
+    }
+
+    /* HOME */
+    .home{
+        flex-direction: column;
+        text-align: center;
+        padding: 8rem 4%;
+    }
+
+    .home-content h1{
+        font-size: 3.5rem;
+    }
+
+    .home-content h3{
+        font-size: 2rem;
+    }
+
+    .home-img img{
+        width: 70%;
+        margin-top: 3rem;
+    }
+
+    /* CONTACT */
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================= */
+/* 📲 TABLETTE (768px - 1024px) */
+/* ========================= */
+
+@media (min-width: 768px) and (max-width: 1024px){
+
+    .home{
+        gap: 4rem;
+        padding: 10rem 6%;
+    }
+
+    .home-content h1{
+        font-size: 4.5rem;
+    }
+
+    .home-img img{
+        width: 50%;
+    }
+
+    .contact-grid{
+        grid-template-columns: 1fr;
+    }
+}
+
+/* ========================= */
+/* 💻 DESKTOP (1024px +) */
+/* ========================= */
+
+@media (min-width: 1024px){
+
+    nav{
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: transparent;
+        border: none;
+    }
+
+    .home{
+        flex-direction: row;
+    }
+
+    .contact-grid{
+        grid-template-columns: repeat(2,1fr);
+    }
 }
